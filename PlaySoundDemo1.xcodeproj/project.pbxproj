@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD42D18B145A5E4200C34083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D18A145A5E4200C34083 /* UIKit.framework */; };
+		DD42D18D145A5E4200C34083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D18C145A5E4200C34083 /* Foundation.framework */; };
+		DD42D18F145A5E4200C34083 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D18E145A5E4200C34083 /* CoreGraphics.framework */; };
+		DD42D195145A5E4200C34083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD42D193145A5E4200C34083 /* InfoPlist.strings */; };
+		DD42D197145A5E4200C34083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42D196145A5E4200C34083 /* main.m */; };
+		DD42D19B145A5E4200C34083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42D19A145A5E4200C34083 /* AppDelegate.m */; };
+		DD42D19E145A5E4200C34083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42D19D145A5E4200C34083 /* ViewController.m */; };
+		DD42D1A1145A5E4200C34083 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD42D19F145A5E4200C34083 /* ViewController.xib */; };
+		DD42D1AA145A5F8300C34083 /* jad0001a.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD42D1A7145A5F8300C34083 /* jad0001a.wav */; };
+		DD42D1AB145A5F8300C34083 /* jad0002a.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD42D1A8145A5F8300C34083 /* jad0002a.wav */; };
+		DD42D1AC145A5F8300C34083 /* jad0003a.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD42D1A9145A5F8300C34083 /* jad0003a.wav */; };
+		DD42D1AE145A5FD300C34083 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D1AD145A5FD300C34083 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD42D186145A5E4200C34083 /* PlaySoundDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaySoundDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD42D18A145A5E4200C34083 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD42D18C145A5E4200C34083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD42D18E145A5E4200C34083 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD42D192145A5E4200C34083 /* PlaySoundDemo1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaySoundDemo1-Info.plist"; sourceTree = "<group>"; };
+		DD42D194145A5E4200C34083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD42D196145A5E4200C34083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD42D198145A5E4200C34083 /* PlaySoundDemo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaySoundDemo1-Prefix.pch"; sourceTree = "<group>"; };
+		DD42D199145A5E4200C34083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD42D19A145A5E4200C34083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD42D19C145A5E4200C34083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD42D19D145A5E4200C34083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD42D1A0145A5E4200C34083 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DD42D1A7145A5F8300C34083 /* jad0001a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jad0001a.wav; sourceTree = "<group>"; };
+		DD42D1A8145A5F8300C34083 /* jad0002a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jad0002a.wav; sourceTree = "<group>"; };
+		DD42D1A9145A5F8300C34083 /* jad0003a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jad0003a.wav; sourceTree = "<group>"; };
+		DD42D1AD145A5FD300C34083 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD42D183145A5E4200C34083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42D1AE145A5FD300C34083 /* AudioToolbox.framework in Frameworks */,
+				DD42D18B145A5E4200C34083 /* UIKit.framework in Frameworks */,
+				DD42D18D145A5E4200C34083 /* Foundation.framework in Frameworks */,
+				DD42D18F145A5E4200C34083 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD42D17B145A5E4200C34083 = {
+			isa = PBXGroup;
+			children = (
+				DD42D1AD145A5FD300C34083 /* AudioToolbox.framework */,
+				DD42D1A7145A5F8300C34083 /* jad0001a.wav */,
+				DD42D1A8145A5F8300C34083 /* jad0002a.wav */,
+				DD42D1A9145A5F8300C34083 /* jad0003a.wav */,
+				DD42D190145A5E4200C34083 /* PlaySoundDemo1 */,
+				DD42D189145A5E4200C34083 /* Frameworks */,
+				DD42D187145A5E4200C34083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD42D187145A5E4200C34083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D186145A5E4200C34083 /* PlaySoundDemo1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD42D189145A5E4200C34083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D18A145A5E4200C34083 /* UIKit.framework */,
+				DD42D18C145A5E4200C34083 /* Foundation.framework */,
+				DD42D18E145A5E4200C34083 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD42D190145A5E4200C34083 /* PlaySoundDemo1 */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D199145A5E4200C34083 /* AppDelegate.h */,
+				DD42D19A145A5E4200C34083 /* AppDelegate.m */,
+				DD42D19C145A5E4200C34083 /* ViewController.h */,
+				DD42D19D145A5E4200C34083 /* ViewController.m */,
+				DD42D19F145A5E4200C34083 /* ViewController.xib */,
+				DD42D191145A5E4200C34083 /* Supporting Files */,
+			);
+			path = PlaySoundDemo1;
+			sourceTree = "<group>";
+		};
+		DD42D191145A5E4200C34083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D192145A5E4200C34083 /* PlaySoundDemo1-Info.plist */,
+				DD42D193145A5E4200C34083 /* InfoPlist.strings */,
+				DD42D196145A5E4200C34083 /* main.m */,
+				DD42D198145A5E4200C34083 /* PlaySoundDemo1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD42D185145A5E4200C34083 /* PlaySoundDemo1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD42D1A4145A5E4200C34083 /* Build configuration list for PBXNativeTarget "PlaySoundDemo1" */;
+			buildPhases = (
+				DD42D182145A5E4200C34083 /* Sources */,
+				DD42D183145A5E4200C34083 /* Frameworks */,
+				DD42D184145A5E4200C34083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaySoundDemo1;
+			productName = PlaySoundDemo1;
+			productReference = DD42D186145A5E4200C34083 /* PlaySoundDemo1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD42D17D145A5E4200C34083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DD42D180145A5E4200C34083 /* Build configuration list for PBXProject "PlaySoundDemo1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD42D17B145A5E4200C34083;
+			productRefGroup = DD42D187145A5E4200C34083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD42D185145A5E4200C34083 /* PlaySoundDemo1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD42D184145A5E4200C34083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42D195145A5E4200C34083 /* InfoPlist.strings in Resources */,
+				DD42D1A1145A5E4200C34083 /* ViewController.xib in Resources */,
+				DD42D1AA145A5F8300C34083 /* jad0001a.wav in Resources */,
+				DD42D1AB145A5F8300C34083 /* jad0002a.wav in Resources */,
+				DD42D1AC145A5F8300C34083 /* jad0003a.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD42D182145A5E4200C34083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42D197145A5E4200C34083 /* main.m in Sources */,
+				DD42D19B145A5E4200C34083 /* AppDelegate.m in Sources */,
+				DD42D19E145A5E4200C34083 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD42D193145A5E4200C34083 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD42D194145A5E4200C34083 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD42D19F145A5E4200C34083 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD42D1A0145A5E4200C34083 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD42D1A2145A5E4200C34083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD42D1A3145A5E4200C34083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD42D1A5145A5E4200C34083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaySoundDemo1/PlaySoundDemo1-Prefix.pch";
+				INFOPLIST_FILE = "PlaySoundDemo1/PlaySoundDemo1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD42D1A6145A5E4200C34083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaySoundDemo1/PlaySoundDemo1-Prefix.pch";
+				INFOPLIST_FILE = "PlaySoundDemo1/PlaySoundDemo1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD42D180145A5E4200C34083 /* Build configuration list for PBXProject "PlaySoundDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD42D1A2145A5E4200C34083 /* Debug */,
+				DD42D1A3145A5E4200C34083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD42D1A4145A5E4200C34083 /* Build configuration list for PBXNativeTarget "PlaySoundDemo1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD42D1A5145A5E4200C34083 /* Debug */,
+				DD42D1A6145A5E4200C34083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD42D17D145A5E4200C34083 /* Project object */;
+}
